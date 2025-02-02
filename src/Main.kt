@@ -41,4 +41,7 @@ fun main() {
     val compra = RepoCompras()
     compra.agregarCompra(cliente1,350.74,12)
     compra.agregarCompra(cliente1,388.24,13)
+    compra.domicilios()
+    domicilio1.direccionCompleta()
+    println(compra)
 }

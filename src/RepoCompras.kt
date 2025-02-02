@@ -1,10 +1,6 @@
 class RepoCompras() {
     private val compras = mutableListOf<Compra>()
 
-    fun agregarCompra(compra: Compra){
-        compras.add(compra)
-    }
-
     fun agregarCompra(cliente: Cliente, monto: Double, dia: Int){
         compras.add(Compra(cliente, monto ,dia))
     }
